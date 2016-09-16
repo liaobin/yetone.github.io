@@ -1,13 +1,13 @@
 $(function() {
   var $D = $(document),
       $main = $('#main'),
-      username = 'yetone',
+      username = 'liaobin',
       version = '0.2.3',
       gistListTpl = $('#gist-list-tpl').html(),
       gistDetailTpl = $('#gist-detail-tpl').html(),
       listRender = shani.compile(gistListTpl),
       detailRender = shani.compile(gistDetailTpl),
-      filename = '!.md',
+      filename = '1.md',
       routers = [
         [/^\/blog\/([^\/]*)/, blogDetailHandler],
         [/^\/$/, homeHandler]
